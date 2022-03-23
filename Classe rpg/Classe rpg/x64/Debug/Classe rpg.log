@@ -1,0 +1,15 @@
+﻿  Branlotin.cpp
+  Godiche.cpp
+  Mahc.cpp
+  Neurd.cpp
+C:\Users\Lucas le beauf\Documents\GitHub\rpg-class\Classe rpg\Classe rpg\Neurd.cpp(34,14): error C2601: 'operator <<' : définitions de fonctions locales non conformes
+C:\Users\Lucas le beauf\Documents\GitHub\rpg-class\Classe rpg\Classe rpg\Neurd.cpp(22): message : cette ligne comporte un '{' qui n'est pas équilibré
+C:\Users\Lucas le beauf\Documents\GitHub\rpg-class\Classe rpg\Classe rpg\Neurd.cpp(22): fatal error C1075: '{' : jeton correspondant introuvable
+  Noteyaf.cpp
+  Personnage.cpp
+  read.cpp
+  Source.cpp
+  Toilla.cpp
+  Zifahk.cpp
+  Zurc.cpp
+  Génération de code en cours...

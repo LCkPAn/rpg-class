@@ -69,7 +69,7 @@ int Personnage::getQi() const
 }
 void Personnage::setQi(int q)
 {
-    if (int q < 0 || q >= 10000) {
+    if (q < 0 || q >= 10000) {
         qi = 0;
     }
     else {
@@ -80,7 +80,7 @@ void Personnage::setQi(int q)
 
 void Personnage::attack(Personnage& enemy)
 {
-    enemy.setQi(enemy.getQi() - getMental());
+    enemy.setMental(enemy.getMental() - getQi());
     cout << enemy.getName() <<"s'est fais attquer" << endl;
 }
 

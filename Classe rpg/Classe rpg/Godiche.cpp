@@ -29,8 +29,9 @@ void Godiche::Godemichet()
         setMental(bonus);
         setQi(getQi() + bonus);
     }
+}
 
-    ostream& operator<<(ostream & os, Branlotin const& p)
+    ostream& operator<<(ostream & os, Godiche const& p)
     {
         os << "--- " << p.getName() << " ---" << endl;
         os << "Santé mentale : " << p.getMental() << endl;
@@ -38,4 +39,3 @@ void Godiche::Godemichet()
         os << "Qi : " << p.getQi() << endl;
         return os;
     }
-}

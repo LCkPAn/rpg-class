@@ -39,4 +39,4 @@ void Neurd::Cerveau()
         os << "Qi : " << p.getQi() << endl;
         return os;
     }
-}
+

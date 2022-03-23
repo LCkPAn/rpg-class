@@ -12,5 +12,5 @@ class Branlotin : public Personnage
 
 		friend ostream& operator<<(ostream& os, Branlotin const& p);
 	};
-};
+
 

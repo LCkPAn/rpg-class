@@ -11,5 +11,4 @@ class Godiche: public Personnage
 
 		friend ostream& operator<<(ostream& os, Godiche const& p);
 	};
-};
 
