@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="Branlotin.cpp" />
     <ClCompile Include="Godiche.cpp" />
+    <ClCompile Include="Inventory.cpp" />
     <ClCompile Include="Mahc.cpp" />
     <ClCompile Include="Neurd.cpp" />
     <ClCompile Include="Noteyaf.cpp" />
@@ -154,6 +155,7 @@
   <ItemGroup>
     <ClInclude Include="Branlotin.h" />
     <ClInclude Include="Godiche.h" />
+    <ClInclude Include="Inventory.h" />
     <ClInclude Include="Mahc.h" />
     <ClInclude Include="Neurd.h" />
     <ClInclude Include="Noteyaf.h" />

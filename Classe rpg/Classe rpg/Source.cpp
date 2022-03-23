@@ -10,21 +10,8 @@
 
 
 int main() {
-
-
-
 	SetConsoleOutputCP(1252);    //Activation des accents
-
-	//Construction par defaut
-	
-
-	//Construction par defaut + modification des variables
-	
-
-
-	
-
-	//Construction surcharge
+//Construction surcharge
 	Personnage p1("Le simplet", 50, 30, 15);
 
 	Branlotin p2("Le branlotin", 100, 50, 10);

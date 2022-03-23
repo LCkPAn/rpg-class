@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main()
+int read()
 {
     ifstream fichier("test.txt", ios::in);  // on ouvre en lecture
 

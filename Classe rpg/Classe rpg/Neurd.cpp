@@ -29,6 +29,7 @@ void Neurd::Cerveau()
         setQi(bonus);
         setQi(getQi() + bonus);
     }
+}
 
 
     ostream& operator<<(ostream & os, Neurd const& p)
