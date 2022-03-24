@@ -7,6 +7,9 @@
 #include "Zifahk.h"
 #include "Zurc.h"
 #include "Mahc.h"
+#include "read.h"
+#include <fstream>
+#include <sstream>
 
 
 int main() {
@@ -29,7 +32,4 @@ int main() {
 	Toilla e4("Toilla, le mâche-laurier ", 100, 0, 100);
 
 	Zifahk e5("Zifahk, le peintre", 100, 0, 100);
-
-	
-
 }

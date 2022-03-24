@@ -1,4 +1,2 @@
-﻿  Source.cpp
-  read.cpp
-  Génération de code en cours...
-  Classe rpg.vcxproj -> C:\Users\drako\Documents\GitHub\rpg-class\Classe rpg\x64\Debug\Classe rpg.exe
+﻿  read.cpp
+C:\Users\drako\Documents\GitHub\rpg-class\Classe rpg\Classe rpg\read.cpp(22): error C4716: 'read' : doit retourner une valeur

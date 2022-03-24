@@ -6,18 +6,17 @@ using namespace std;
 
 int read()
 {
-    ifstream fichier("test.txt", ios::in);  // on ouvre en lecture
-
-    if (fichier)
-    {
-        string ligne;
-        while (getline(fichier, ligne))  // tant que l'on peut mettre la ligne dans "contenu"
-        {
-            cout << ligne << endl;  // on l'affiche
+    
+        std::ifstream Handle("test.txt");
+        if (Handle.is_open()) {
+            int I = 1;
+            while (!Handle.eof()) {
+                std::string CurrLine;
+                std::getline(Handle, CurrLine);
+                std::cout << I << ":" << CurrLine << std::endl;
+                I++;
+            }
+            Handle.close();
         }
-    }
-    else
-        cerr << "Impossible d'ouvrir le fichier !" << endl;
-
-    return 0;
+        return 0
 }
