@@ -1,22 +1,15 @@
-#include <iostream>
-#include <string>
-#include <fstream>
+#include "read.h"
 
-using namespace std;
-
-int read()
+void read::readFile()
 {
-    
-        std::ifstream Handle("test.txt");
-        if (Handle.is_open()) {
-            int I = 1;
-            while (!Handle.eof()) {
-                std::string CurrLine;
-                std::getline(Handle, CurrLine);
-                std::cout << I << ":" << CurrLine << std::endl;
-                I++;
-            }
-            Handle.close();
+    std::ifstream Handle("test.txt");
+    if (Handle.is_open()) {
+        while (!Handle.eof()) {
+            std::string CurrLine;
+            std::getline(Handle, CurrLine);
+            std::cout << CurrLine << std::endl;
         }
-        return 0
+        Handle.close();
+        std::cout << "oui";
+    }
 }
