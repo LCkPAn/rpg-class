@@ -1,1 +1,17 @@
-﻿  Classe rpg.vcxproj -> C:\Users\drako\Documents\GitHub\rpg-class\Classe rpg\x64\Debug\Classe rpg.exe
+﻿  Branlotin.cpp
+  Godiche.cpp
+  Inventory.cpp
+C:\Users\Megaport\Documents\GitHub\rpg-class\Classe rpg\Classe rpg\Inventory.cpp(15,22): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+  Mahc.cpp
+  Neurd.cpp
+  Noteyaf.cpp
+  Personnage.cpp
+  Questions.cpp
+  read.cpp
+  Source.cpp
+  Toilla.cpp
+  Zifahk.cpp
+  Zurc.cpp
+  Génération de code en cours...
+  LINK : C:\Users\Megaport\Documents\GitHub\rpg-class\Classe rpg\x64\Debug\Classe rpg.exe introuvable ou non généré par la dernière édition de liens incrémentielle ; édition de liens complète en cours
+  Classe rpg.vcxproj -> C:\Users\Megaport\Documents\GitHub\rpg-class\Classe rpg\x64\Debug\Classe rpg.exe

@@ -142,6 +142,7 @@
     <ClCompile Include="Branlotin.cpp" />
     <ClCompile Include="Godiche.cpp" />
     <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="Jouable.cpp" />
     <ClCompile Include="Mahc.cpp" />
     <ClCompile Include="Neurd.cpp" />
     <ClCompile Include="Noteyaf.cpp" />
@@ -156,6 +157,7 @@
     <ClInclude Include="Branlotin.h" />
     <ClInclude Include="Godiche.h" />
     <ClInclude Include="Inventory.h" />
+    <ClInclude Include="Jouable.h" />
     <ClInclude Include="Mahc.h" />
     <ClInclude Include="Neurd.h" />
     <ClInclude Include="Noteyaf.h" />
