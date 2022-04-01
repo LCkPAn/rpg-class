@@ -17,6 +17,12 @@ Noteyaf::Noteyaf(string n, int m, int f, int q)
 }
 
 
+string Noteyaf::getNoteyaf(int f)
+{
+    return Fayeton[f];
+};
+
+
 void Noteyaf::Downtherabbithole()
 {
 

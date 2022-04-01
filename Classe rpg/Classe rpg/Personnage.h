@@ -1,11 +1,10 @@
 #pragma once
 #include <iostream>
 #include <Windows.h> //pour mettre les accents
-#include "Jouable.h"
 
 using namespace std;
 
-class Personnage : public Jouable
+class Personnage
 {
 protected:
 	string name;

@@ -17,6 +17,11 @@ Zurc::Zurc(string n, int m, int f, int q)
     setQi(q);
 }
 
+string Zurc::getZurc(int r)
+{
+    return Cruz[r];
+};
+
 
 void Zurc::LevelDesign()
 {

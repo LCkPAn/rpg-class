@@ -1,11 +1,36 @@
 #pragma once
-#include "Personnage.h"
-class Noteyaf : public Personnage
+#include "Jouable.h"
+class Noteyaf : public Jouable
 {
+private: vector<string> Fayeton =
+{
+	//Fayeton
+
+	//Questions
+	"La sémantique c’est :",
+	"Un bon document GDD pour moi c’est :",
+	"Un processeur d’ordinateur sert à :",
+
+
+	//Réponses
+	"- L’étude du sens",
+	"- Un nouvelle drogue que je prends avant chaque Game Jam",
+	"- Essayer de comprendre Nathan quand il parle",
+
+	"- Un texte justifié",
+	"- De la couleur, de l’amour et des images",
+	"- Je c pas lir mdr",
+
+	"- Sert à l'échange de données entre composants informatiques",
+	"- Cuire un oeuf (no joke j’ai déjà vu ça sur youtube)",
+	"- Calculer la puissance graphique d’un NPC corpule v3",
+};
+
 public:
 	Noteyaf();
 	Noteyaf(string n, int m, int f, int q); //Création constructeur surchargé avec les bases de Personnage + les nouvelles données de Guerrier
 
+	string getNoteyaf(int f);
 
 	void Downtherabbithole();
 

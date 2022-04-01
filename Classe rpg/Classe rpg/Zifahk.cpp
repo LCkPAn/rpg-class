@@ -18,6 +18,10 @@
         setQi(q);
     }
 
+    string Zifahk::getZifahk(int k)
+    {
+        return Khafiz[k];
+    };
 
     void Zifahk::Refeclater()
     {

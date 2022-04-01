@@ -1,6 +1,6 @@
 #pragma once
-#include "Personnage.h"
-class Godiche: public Personnage
+#include "Jouable.h"
+class Godiche: public Jouable
 {	
 	public:
 		Godiche();
