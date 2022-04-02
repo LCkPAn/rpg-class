@@ -1,8 +1,10 @@
 #pragma once
-#include "Jouable.h"
-class Noteyaf : public Jouable
+#include "Profs.h"
+class Noteyaf : public Profs
 {
-private: vector<string> Fayeton =
+private: 
+	string collect = "Carotte";
+	vector<string> Fayeton =
 {
 	//Fayeton
 
@@ -30,7 +32,7 @@ public:
 	Noteyaf();
 	Noteyaf(string n, int m, int f, int q); //Création constructeur surchargé avec les bases de Personnage + les nouvelles données de Guerrier
 
-	string getNoteyaf(int f);
+	string getTab(int f);
 
 	void Downtherabbithole();
 

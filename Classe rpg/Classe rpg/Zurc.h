@@ -1,8 +1,10 @@
 #pragma once
-#include "Jouable.h"
-class Zurc : public Jouable
+#include "Profs.h"
+class Zurc : public Profs
 {
-private: vector<string> Cruz =
+private:
+	string collect = "rien";
+	vector<string> Cruz =
 {
 	//Cruz
 
@@ -30,7 +32,7 @@ public:
 	Zurc();
 	Zurc(string n, int m, int f, int q); //Création constructeur surchargé avec les bases de Personnage + les nouvelles données de Guerrier
 
-	string getZurc(int r);
+	string getTab(int r);
 
 	void LevelDesign();
 

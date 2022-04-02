@@ -147,6 +147,7 @@
     <ClCompile Include="Neurd.cpp" />
     <ClCompile Include="Noteyaf.cpp" />
     <ClCompile Include="Personnage.cpp" />
+    <ClCompile Include="Profs.cpp" />
     <ClCompile Include="read.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Toilla.cpp" />
@@ -162,6 +163,7 @@
     <ClInclude Include="Neurd.h" />
     <ClInclude Include="Noteyaf.h" />
     <ClInclude Include="Personnage.h" />
+    <ClInclude Include="Profs.h" />
     <ClInclude Include="read.h" />
     <ClInclude Include="Toilla.h" />
     <ClInclude Include="Zifahk.h" />

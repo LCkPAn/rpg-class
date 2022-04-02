@@ -18,7 +18,7 @@
         setQi(q);
     }
 
-    string Zifahk::getZifahk(int k)
+    string Zifahk::getTab(int k)
     {
         return Khafiz[k];
     };

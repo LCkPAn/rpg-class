@@ -7,7 +7,7 @@ class Godiche: public Jouable
 		Godiche(string n, int m, int f, int q); //Création constructeur surchargé avec les bases de Personnage + les nouvelles données de Guerrier
 
 
-		void Godemichet();
+		void special();
 
 		friend ostream& operator<<(ostream& os, Godiche const& p);
 	};

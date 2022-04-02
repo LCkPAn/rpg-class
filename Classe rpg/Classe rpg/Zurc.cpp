@@ -17,7 +17,7 @@ Zurc::Zurc(string n, int m, int f, int q)
     setQi(q);
 }
 
-string Zurc::getZurc(int r)
+string Zurc::getTab(int r)
 {
     return Cruz[r];
 };

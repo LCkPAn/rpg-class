@@ -16,7 +16,7 @@ Mahc::Mahc(string n, int m, int f, int q)
     setQi(q);
 }
 
-string Mahc::getMahc(int c)
+string Mahc::getTab(int c)
 {
     return Cham[c];
 };

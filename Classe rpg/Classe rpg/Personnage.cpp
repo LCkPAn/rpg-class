@@ -77,22 +77,31 @@ void Personnage::setQi(int q)
     }
 }
 
+bool Personnage::getDef() const
+{
+    return def;
+}
+
+void Personnage::setDef(bool d)
+{
+    def = d;
+}
+
 
 void Personnage::attack(Personnage& enemy)
 {
-    enemy.setMental(enemy.getMental() - getQi());
-    cout << enemy.getName() <<"s'est fais attquer" << endl;
+    if (enemy.getDef() == false) {
+        enemy.setMental(enemy.getMental() - getQi());
+        cout << enemy.getName() << "s'est fais attaquer" << endl;
+    }
+    if (enemy.getDef() == true) {
+        enemy.setMental((enemy.getMental() - getQi())/2);
+        cout << enemy.getName() << "s'est fais attaquer mais se protéger !" << endl;
+        enemy.setDef(false);
+    }
 }
 
-bool Personnage::operator>(Personnage& target)
-{
-    return getName().size() > target.getName().size();
-}
 
-bool Personnage::operator<(Personnage& target)
-{
-    return !(getName().size() > target.getName().size());
-}
 
 ostream& operator<<(ostream& os, Personnage const& p)
 {

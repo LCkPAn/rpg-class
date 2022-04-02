@@ -7,7 +7,7 @@ public:
 	Neurd(string n, int m, int f, int q); //Création constructeur surchargé avec les bases de Personnage + les nouvelles données de Guerrier
 
 
-	void Cerveau();
+	void special();
 
 	friend ostream& operator<<(ostream& os, Neurd const& p);
 

@@ -8,39 +8,23 @@
 #include "Zurc.h"
 #include "Mahc.h"
 #include "read.h"
+#include "Profs.h"
 #include <vector>
-void showZurc(vector<string> tab) {
-	for (int i = 0; i < 53; i++) {
+void showProf(vector<string> tab,int start, int end) {
+	for (int i = start; i < end; i++) {
 		cout << tab[i] << endl;
 	}
 }
-void showMahc(vector<string> tab) {
-	for (int i = 54; i < 108; i++) {
-		cout << tab[i] << endl;
-	}
-}
-void showNoteyaf(vector<string> tab) {
-	for (int i = 109; i < 160; i++) {
-		cout << tab[i] << endl;
-	}
-}
-void showToilla(vector<string> tab) {
-	for (int i = 163; i < 210; i++) {
-		cout << tab[i] << endl;
-	}
 
-}
-void showZifahk(vector<string> tab) {
-	for (int i = 215; i < 255; i++) {
-		cout << tab[i] << endl;
-	}
-}void showZifahkR(vector<string> tab) {
-	for (int i = 256; i < 290; i++) {
-		cout << tab[i] << endl;
-	}
-}
+//zurc 0 i < 53
+//Cham 54; i < 108
+// Fayeton int i = 109; i < 160
+// Toilla 163; i < 210
+//Zifhak  215; i < 255
+//ZifhakR 256; i < 290
 
 int main() {
+	SetConsoleOutputCP(1252); 
 	vector <string> tab;
 	std::ifstream Handle("test.txt");
 	if (Handle.is_open()) {
@@ -70,47 +54,69 @@ int main() {
 
 	Zifahk e5("Zifahk, le peintre", 100, 0, 100);
 
-	
 	//first fight
-	cout << "texte1" << endl;
-	int ennemy = 0;
+	Profs &ennemy = e1;
+	int tourEnnemy = 0;
+	Jouable &player= p2;
 	int compTour = 0;
-	while (ennemy < 5) {
+	int rep = 0;
+	e1.startFight(p3);
+
+	/*while (tourEnnemy < 5) {
+		system("CLS");
+		compTour = 0;
 		while (compTour != 3) {
-			switch (ennemy) {
+			switch (tourEnnemy) {
 			case 0:
-				showNoteyaf(tab);
+				showProf(tab,1,53);
+				ennemy = e2;
 				break;
 			case 1:
-				showToilla(tab);
+				showProf(tab,54,108);
+				ennemy = e1;
 				break;
 			case 2:
-				showMahc(tab);
+				showProf(tab,109,160);
+				ennemy = e3;
 				break;
 			case 3:
-				showZifahk(tab);
+				showProf(tab,163,210);
+				ennemy = e4;
 				break;
 			case 4:
+				showProf(tab, 215, 254);
+				ennemy = e5;
 				break;
 			}
-			compTour += 1;
-			int rep = 0;
+			cout << ennemy.getTab(0+compTour) << endl;
+			cout << "1" << ennemy.getTab(3+compTour*3) << " ?" << " 2" << ennemy.getTab(4+compTour * 3) << " ?" << " 3" << ennemy.getTab(5+ compTour * 3) << " ?" << endl;
+			cout << "entrez votre réponse" << endl;
 			cin >> rep;
 			switch (rep)
 			{
 			case 1:
-
+				player.setMental(player.getMental() + 10);
+				compTour += 1;
 				break;
 			case 2:
-
+				ennemy.startFight(ennemy,player);
+				compTour = 3;
 				break;
-
 			case 3:
+				player.setFlemme(player.getFlemme() + 10);
+				compTour += 1;
 				break;
+
+			default:
+				cout << "Mauvaise Action";
 			}
+			
+
 
 
 
 		}
-	}
+		cout << "fin du cours. Cours suivant";
+		tourEnnemy += 1;
+	}*/
 }

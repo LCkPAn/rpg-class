@@ -1,10 +1,10 @@
 #pragma once
-#include "Jouable.h"
+#include "Profs.h"
 
-class Toilla : public Jouable
+class Toilla : public Profs
 {
 private:
-
+	string collect = "Flasque de Whiskey";
 	vector<string> Alliot =
 	{
 		//Alliot
@@ -33,7 +33,7 @@ public:
 	Toilla();
 	Toilla(string n, int m, int f, int q); //Création constructeur surchargé avec les bases de Personnage + les nouvelles données de Guerrier
 
-	string getToilla(int a);
+	string getTab(int a);
 
 	void Ronpiche();
 

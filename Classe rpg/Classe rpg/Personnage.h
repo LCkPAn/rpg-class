@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <Windows.h> //pour mettre les accents
+#include <ctime>
 
 using namespace std;
 
@@ -11,6 +12,7 @@ protected:
 	int mental;
 	int flemme;
 	int qi;
+	bool def;
 
 
 public:
@@ -32,12 +34,13 @@ public:
 	int getQi() const;
 	void setQi(int q);
 
+	bool getDef() const;
+	void setDef(bool d);
+
 
 	//Methodes gameplay
 	void attack(Personnage& enemy);
-
-	bool operator>(Personnage& target);
-	bool operator<(Personnage& target);
+	void defend(Personnage& enemy);
 
 	friend ostream& operator<<(ostream& os, Personnage const& p);
 

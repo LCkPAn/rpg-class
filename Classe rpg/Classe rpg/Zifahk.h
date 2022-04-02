@@ -1,9 +1,10 @@
 #pragma once
-#include "Jouable.h"
+#include "Profs.h"
 
-class Zifahk : public Jouable
+class Zifahk : public Profs
 {
 private:
+	string collect = "Paquet de clope";
 	vector<string> Khafiz =
 	{
 		//Khafiz
@@ -31,7 +32,7 @@ public:
 	Zifahk();
 	Zifahk(string n, int m, int f, int q); //Création constructeur surchargé avec les bases de Personnage + les nouvelles données de Guerrier
 
-	string getZifahk(int k);
+	string getTab(int k);
 
 	void Refeclater();
 

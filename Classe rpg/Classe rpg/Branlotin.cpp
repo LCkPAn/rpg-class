@@ -20,12 +20,13 @@ Branlotin::Branlotin(string n, int m, int f, int q)
 }
 
 
-void Branlotin::Flemminchite()
+void Branlotin::special()
 {
     if (getFlemme() <50) {
         cout << "Pas assez flemmard aujourd'hui" << endl;
     }
     else {
+        cout << "Branlotin utilise Flemminchite" << endl;
         setFlemme(getFlemme()> 50);
         int bonus = getQi() * (getFlemme() * 0, 75);
         setFlemme(bonus);

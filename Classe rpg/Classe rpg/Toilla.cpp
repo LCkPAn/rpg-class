@@ -17,7 +17,7 @@ Toilla::Toilla(string n, int m, int f, int q)
     setQi(q);
 }
 
-string Toilla::getToilla(int a)
+string Toilla::getTab(int a)
 {
     return Alliot[a];
 }

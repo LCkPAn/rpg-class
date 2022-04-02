@@ -7,6 +7,7 @@
 class Jouable: public Personnage
 {
 private:
+	vector <string> tab;
 	vector<string> Perso =
 	{
 		//Selection Perso
@@ -48,4 +49,11 @@ private:
 
 public:
 	string getPerso(int p);
+	virtual void special();
+	string getTab(int c);
+	void setTab(string n);
+
+	int getLTab();
+
+	void showTab();
 };

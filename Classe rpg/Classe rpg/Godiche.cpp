@@ -18,12 +18,13 @@ Godiche::Godiche(string n, int m, int f, int q)
 }
 
 
-void Godiche::Godemichet()
+void Godiche::special()
 {
     if (getMental() < 50) {
         cout << "Pas assez con aujourd'hui" << endl;
     }
     else {
+        cout << "Godiche utilise Godemichet" << endl;
         setMental(getMental() > 50);
         int bonus = getQi() * (getMental() * 0, 75);
         setMental(bonus);

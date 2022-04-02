@@ -1,8 +1,9 @@
 #pragma once
-#include "Jouable.h"
-class Mahc : public Jouable
+#include "Profs.h"
+class Mahc : public Profs
 {
 private:
+	string collect = "Stich";
 	vector<string> Cham =
 	{
 		//Cham
@@ -31,7 +32,7 @@ public:
 	Mahc();
 	Mahc(string n, int m, int f, int q); //Création constructeur surchargé avec les bases de Personnage + les nouvelles données de Guerrier
 
-	string getMahc(int c);
+	string getTab(int c);
 
 	void Charme();
 

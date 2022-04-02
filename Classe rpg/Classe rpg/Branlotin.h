@@ -8,7 +8,7 @@ class Branlotin : public Jouable
 		Branlotin(string n, int m, int f, int q); //Création constructeur surchargé avec les bases de Personnage + les nouvelles données de Guerrier
 
 
-		void Flemminchite();
+		void special();
 
 		friend ostream& operator<<(ostream& os, Branlotin const& p);
 	};

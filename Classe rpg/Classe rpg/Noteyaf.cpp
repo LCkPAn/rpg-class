@@ -17,7 +17,7 @@ Noteyaf::Noteyaf(string n, int m, int f, int q)
 }
 
 
-string Noteyaf::getNoteyaf(int f)
+string Noteyaf::getTab(int f)
 {
     return Fayeton[f];
 };
