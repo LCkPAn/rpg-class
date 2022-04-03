@@ -21,7 +21,7 @@ string Mahc::getTab(int c)
     return Cham[c];
 };
 
-void Mahc::Charme()
+void Mahc::special()
 {
    
 }

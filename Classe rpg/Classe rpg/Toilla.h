@@ -9,6 +9,16 @@ private:
 	{
 		//Alliot
 
+		//Début de combat
+		"Hi, everyone, comment ça va aujourd’hui ?"
+
+		//PunchLâcher pas les gars on arrive dans le dur
+		"N’hésite pas à t’abonner à mon instragram"
+		"La douceur de caractère qui naît de la simplicité de l'insouciance, n'est point vertu de Zzzzzzzzz…"
+
+		//fin de combat
+		"T’aurais pas une clope à dépanner, au fait ?"
+
 		//Questions
 		"Une boucle de jeu c’est: ",
 		"L’auteur de l’anatomie de scénario est: ",
@@ -35,7 +45,7 @@ public:
 
 	string getTab(int a);
 
-	void Ronpiche();
+	void special();
 
 	friend ostream& operator<<(ostream& os, Toilla const& p);
 

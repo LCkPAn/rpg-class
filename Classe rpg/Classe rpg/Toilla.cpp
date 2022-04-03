@@ -23,7 +23,7 @@ string Toilla::getTab(int a)
 }
 
 
-void Toilla::Ronpiche()
+void Toilla::special()
 {
 
 

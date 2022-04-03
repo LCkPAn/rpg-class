@@ -23,7 +23,7 @@ string Noteyaf::getTab(int f)
 };
 
 
-void Noteyaf::Downtherabbithole()
+void Noteyaf::special()
 {
 
 }

@@ -23,7 +23,7 @@ string Zurc::getTab(int r)
 };
 
 
-void Zurc::LevelDesign()
+void Zurc::special()
 {
    
 

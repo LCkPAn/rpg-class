@@ -9,6 +9,17 @@ private:
 	{
 		//Khafiz
 
+		//Début de combat
+		"Salut les filles !"
+
+		//Punch
+		"Starfoullah que t’es moche"
+		"Ce week-end je vous mets le lien du drive"
+		"C’est éclaté au sol ce que tu as fait"
+
+		//fin de combat
+		"Bon bah je vais devoir me mettre affinity alors"
+
 		//Questions
 		"C’est quoi ta ref ?",
 		"T’es con où t’es con ?",
@@ -34,7 +45,7 @@ public:
 
 	string getTab(int k);
 
-	void Refeclater();
+	void special();
 
 	friend ostream& operator<<(ostream& os, Zifahk const& p);
 

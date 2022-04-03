@@ -23,7 +23,7 @@
         return Khafiz[k];
     };
 
-    void Zifahk::Refeclater()
+    void Zifahk::special()
     {
 
 
