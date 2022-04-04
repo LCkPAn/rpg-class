@@ -1,7 +1,6 @@
 #pragma once
 #include "Personnage.h"
 #include "Jouable.h"
-#include "Inventory.h"
 class Profs: public Personnage
 {
 private:

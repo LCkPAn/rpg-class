@@ -25,7 +25,7 @@ string Zurc::getTab(int r)
 
 void Zurc::special()
 {
-   
+    cout << "Zurc attaque TREMPETTE, mais rien ne ce passe" << endl;
 
 }
 

@@ -1,19 +1,2 @@
-﻿  Branlotin.cpp
-  Godiche.cpp
-  Inventory.cpp
-C:\Users\Lucas le beauf\Documents\GitHub\rpg-class\Classe rpg\Classe rpg\Inventory.cpp(15,22): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
-  Jouable.cpp
-C:\Users\Lucas le beauf\Documents\GitHub\rpg-class\Classe rpg\Classe rpg\Jouable.cpp(24,22): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
-  Mahc.cpp
-  Neurd.cpp
-  Noteyaf.cpp
-  Personnage.cpp
-  Profs.cpp
-  read.cpp
-  Source.cpp
-C:\Users\Lucas le beauf\Documents\GitHub\rpg-class\Classe rpg\Classe rpg\Source.cpp(63,18): error C2660: 'Profs::startFight' : la fonction ne prend pas 1 arguments
-C:\Users\Lucas le beauf\Documents\GitHub\rpg-class\Classe rpg\Classe rpg\Profs.h(12,15): message : voir la déclaration de 'Profs::startFight'
-  Toilla.cpp
-  Zifahk.cpp
-  Zurc.cpp
-  Génération de code en cours...
+﻿  LINK : C:\Users\drako\Documents\GitHub\rpg-class\Classe rpg\x64\Debug\Classe rpg.exe introuvable ou non généré par la dernière édition de liens incrémentielle ; édition de liens complète en cours
+  Classe rpg.vcxproj -> C:\Users\drako\Documents\GitHub\rpg-class\Classe rpg\x64\Debug\Classe rpg.exe

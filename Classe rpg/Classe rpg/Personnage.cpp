@@ -92,11 +92,11 @@ void Personnage::attack(Personnage& enemy)
 {
     if (enemy.getDef() == false) {
         enemy.setMental(enemy.getMental() - getQi());
-        cout << enemy.getName() << "s'est fais attaquer" << endl;
+        cout << enemy.getName() << " s'est fais attaquer" << endl;
     }
     if (enemy.getDef() == true) {
         enemy.setMental((enemy.getMental() - getQi())/2);
-        cout << enemy.getName() << "s'est fais attaquer mais se protéger !" << endl;
+        cout << enemy.getName() << " s'est fais attaquer mais se protéger !" << endl;
         enemy.setDef(false);
     }
 }

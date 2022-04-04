@@ -9,15 +9,15 @@ private:
 		//Cham
 
 		//Début de combat
-		"Aujourd’hui on va commencer un cours où 80% d’entre vous vont rien comprendre mais c’est pas grave, j’ai l’habitude de me sentir inutile "
+		"Aujourd’hui on va commencer un cours où 80% d’entre vous vont rien comprendre mais c’est pas grave, j’ai l’habitude de me sentir inutile ",
 
 		//Punch
-		"Je vais te péter les genoux, mais t’inquiète c’est juste pour me donner un genre"
-		"Ne me vouvoie pas stp, ça me fait sentir plus jeune"
-		"Ta mère elle est.. Désolé j’ai jamais d’inspiration pour des blagues drôles "
+		"Je vais te péter les genoux, mais t’inquiète c’est juste pour me donner un genre",
+		"Ne me vouvoie pas stp, ça me fait sentir plus jeune",
+		"Ta mère elle est.. Désolé j’ai jamais d’inspiration pour des blagues drôles ",
 
 		//Fin de combat
-		"Et si on allait boire un coup ?"
+		"Et si on allait boire un coup ?",
 
 		//Questions
 		"Quel est le rôle d’un destructeur ?",

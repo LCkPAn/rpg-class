@@ -9,15 +9,15 @@ private:
 	//Cruz
 
 	//Début de combat
-	"Aujourd’hui on va lancer Atmosphir et faire de la merde"
+	"Aujourd’hui on va lancer Atmosphir et faire de la merde",
 
 	//Punch
-	"Je ne suis pas ton de LD mais de Quart-raté"
-	"On m'a encore confondu avec un élève aujourd’hui…"
-	"Je vous ai préparé un tuto sur l’utilisation de YouTube"
+	"Je ne suis pas ton de LD mais de Quart-raté",
+	"On m'a encore confondu avec un élève aujourd’hui…",
+	"Je vous ai préparé un tuto sur l’utilisation de YouTube",
 
 	//Fin de combat
-	"A la semaine prochaine, pour un cours productif et non POISSON D’AVRIL"
+	"A la semaine prochaine, pour un cours productif et non POISSON D’AVRIL",
 
 	//Questions
 	"Pour faire un bon tuto il faut ? ",

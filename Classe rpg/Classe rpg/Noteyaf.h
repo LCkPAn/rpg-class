@@ -9,15 +9,15 @@ private:
 	//Fayeton
 
 	//Début de combat
-	"'Bonjour n’affecte pas Noteyaf, rien ne ce passe'"
+	"'Bonjour n’affecte pas Noteyaf, rien ne ce passe'",
 
 	//Punch
-	"Aujourd’hui on va parler de l’histoire de jeu vidéo, à je crois que je me répète"
-	"Une vidéo de JDG ça te tente ?"
-	"Kamelot c’est vraiment la meilleur série"
+	"Aujourd’hui on va parler de l’histoire de jeu vidéo, à je crois que je me répète",
+	"Une vidéo de JDG ça te tente ?",
+	"Kamelot c’est vraiment la meilleur série",
 
 	//Aurevoir
-	"J'aurais aimé que ce ne sois qu'un reve"
+	"J'aurais aimé que ce ne sois qu'un reve",
 
 	//Questions
 	"La sémantique c’est :",

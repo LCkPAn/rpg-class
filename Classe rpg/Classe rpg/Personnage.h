@@ -40,7 +40,6 @@ public:
 
 	//Methodes gameplay
 	void attack(Personnage& enemy);
-	void defend(Personnage& enemy);
 
 	friend ostream& operator<<(ostream& os, Personnage const& p);
 
