@@ -10,7 +10,7 @@ Godiche::Godiche()
 
 Godiche::Godiche(string n, int m, int f, int q)
 {
-    //J'écris tout ce dont j'ai besoin pour créer un guerrier
+    
     setName(n);
     setMental(m);
     setFlemme(f);

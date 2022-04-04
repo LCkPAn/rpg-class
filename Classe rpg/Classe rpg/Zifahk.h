@@ -4,6 +4,7 @@
 class Zifahk : public Profs
 {
 private:
+	vector<int>rep = { 1, 2, 0 };
 	string collect = "Paquet de clope";
 	vector<string> Khafiz =
 	{
@@ -27,22 +28,23 @@ private:
 
 
 		//Réponses
-		"- Je l’ai choppé sur Pinterest de mon artiste préféré",
 		"- Ouin ouin je l’ai recopié je suis un bébé ",
 		"- Heeeu j’ai pas fais mon boulot (90% du temps)",
+		"- Je l’ai choppé sur Pinterest de mon artiste préféré",
 
-		"- Désolé je suis une merde",
 		"- 42 ?",
 		"- La réponse à la question",
+		"- Désolé je suis une merde",
 
-		"- Désolé Salim",
 		"- ……",
-		"- Salim je te prends en 1vs1, rdv gare du nord" };
+		"- Salim je te prends en 1vs1, rdv gare du nord" ,
+		"- Désolé Salim" };
 
 public:
+	string getCollect();
 	Zifahk();
 	Zifahk(string n, int m, int f, int q); //Création constructeur surchargé avec les bases de Personnage + les nouvelles données de Guerrier
-
+	int getRep(int r);
 	string getTab(int k);
 
 	void special();

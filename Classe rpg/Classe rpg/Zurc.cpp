@@ -10,7 +10,7 @@ Zurc::Zurc()
 
 Zurc::Zurc(string n, int m, int f, int q)
 {
-    //J'écris tout ce dont j'ai besoin pour créer un guerrier
+    //J'écris tout ce dont j'ai besoin pour créer un personnage profs
     setName(n);
     setMental(m);
     setFlemme(f);
@@ -27,6 +27,16 @@ void Zurc::special()
 {
     cout << "Zurc attaque TREMPETTE, mais rien ne ce passe" << endl;
 
+}
+
+string Zurc::getCollect()
+{
+    return collect;
+}
+
+int Zurc::getRep(int r)
+{
+    return rep[r];
 }
 
 ostream& operator<<(ostream& os, Zurc const& p)

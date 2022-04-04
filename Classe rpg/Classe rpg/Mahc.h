@@ -3,6 +3,8 @@
 class Mahc : public Profs
 {
 private:
+	bool resultat;
+	vector<int>rep = { 2, 1, 0 };
 	string collect = "Stich";
 	vector<string> Cham =
 	{
@@ -26,17 +28,17 @@ private:
 
 
 		//Réponses
-		"- Une fonction membre qui est appelée automatiquement lorsque l’objet est hors de portée ou est détruite explicitement par un appel à delete",
-		"- De tout CASSER",
 		"- De broyer du papier",
+		"- De tout CASSER",
+		"- Une fonction membre qui est appelée automatiquement lorsque l’objet est hors de portée ou est détruite explicitement par un appel à delete",
 
-		"- De permettre à ses enfants un avenir merveilleux (sauf si t’es prof de prog)",
-		"- Permet de donner à une classe toutes les caractéristiques d'une ou de plusieurs autres classes",
 		"- Le savoir que je laisse à mes élèves, non je rigole je suis juste pour la THUNE",
+		"- Permet de donner à une classe toutes les caractéristiques d'une ou de plusieurs autres classes",
+		"- De permettre à ses enfants un avenir merveilleux (sauf si t’es prof de prog)",
 
-		"- En demandant en Chandler et Monica",
-		"- En demandant à ton voisin de classe",
 		"- Accorder l’accès aux membres privés et protégés de votre classe",
+		"- En demandant à ton voisin de classe",
+		"- En demandant en Chandler et Monica",
 	};
 
 public:
@@ -44,8 +46,14 @@ public:
 	Mahc(string n, int m, int f, int q); //Création constructeur surchargé avec les bases de Personnage + les nouvelles données de Guerrier
 
 	string getTab(int c);
+	int getRep(int r);
 
 	void special();
+	void startFight(Profs& p, Jouable& j);
+
+	bool getResultat();
+	void setResultat(bool r);
+	string getCollect();
 
 	friend ostream& operator<<(ostream& os, Mahc const& p);
 };

@@ -16,35 +16,35 @@ private:
 		"Tu te sens l’âme d’un ?",
 		"Si je te dis banane ?",
 		"Ton jeu favoris ?",
-		"Le cheveaux blanc d’henri 4 est :",
-		"Lucas préfère:",
+		"Le cheveaux blanc d’henri 4 est : ",
+		"Lucas préfère: ",
 
 
 		//Réponses
-		"- Programmeur",
-		"- Dessinateur",
-		"- Je veux vous donner des ordres",
-		"- Mdr kes ke j’fou ici",
+		"- 1 Programmeur ?",
+		"- 2 Dessinateur ?",
+		"- 3 Je veux vous donner des ordres ?",
+		"- 4 Mdr kes ke j’fou ici ?",
 
-		"- Tu la mange",
-		"- Tu la suce",
-		"- Pizza",
-		"- Je joues au petit bateau avec",
+		"- 1 Tu la mange ?",
+		"- 2 Tu la suce ?",
+		"- 3 Pizza ?",
+		"- 4 Je joues au petit bateau avec ?",
 
-		"- Fez",
-		"- Fez",
-		"- Fez",
-		"- Fez",
+		"- 1 Fez ?",
+		"- 2 Fez ?",
+		"- 3 Fez ?",
+		"- 4 Fez ?",
 
-		"- Blanc",
-		"- Oups j’en ai partout mon caleçon",
-		"- Attends quoi 4 ?",
-		"- Lundi matin en Narratologie",
+		"- 1 Blanc ?",
+		"- 2 Oups j’en ai partout mon caleçon ?",
+		"- 3 Attends quoi 4 ?",
+		"- 4 Lundi matin en Narratologie ?",
 
-		"- Les rousses",
-		"- Le cul",
-		"- Les seins",
-		"- Ta mère",
+		"- 1 Les rousses ?",
+		"- 2 Le cul ?",
+		"- 3 Les seins ?",
+		"- 4 Ta mère ?",
 	};
 
 public:

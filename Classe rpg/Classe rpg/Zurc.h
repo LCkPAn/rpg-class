@@ -3,6 +3,7 @@
 class Zurc : public Profs
 {
 private:
+	vector<int>rep = { 0, 1, 2 };
 	string collect = "rien";
 	vector<string> Cruz =
 {
@@ -40,12 +41,13 @@ private:
 };
 
 public:
+
 	Zurc();
 	Zurc(string n, int m, int f, int q); //Création constructeur surchargé avec les bases de Personnage + les nouvelles données de Guerrier
-
 	string getTab(int r);
-
 	void special();
+	string getCollect();
+	int getRep(int r);
 
 	friend ostream& operator<<(ostream& os, Zurc const& p);
 

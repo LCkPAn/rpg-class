@@ -1,7 +1,13 @@
 #include "Zifahk.h"
 
 
-    Zifahk::Zifahk()
+
+string Zifahk::getCollect()
+{
+    return collect;
+}
+
+Zifahk::Zifahk()
     {
         setName("Default");
         setMental(100);
@@ -11,11 +17,16 @@
 
     Zifahk::Zifahk(string n, int m, int f, int q)
     {
-        //J'écris tout ce dont j'ai besoin pour créer un guerrier
+        
         setName(n);
         setMental(m);
         setFlemme(f);
         setQi(q);
+    }
+
+    int Zifahk::getRep(int r)
+    {
+        return rep[r];
     }
 
     string Zifahk::getTab(int k)

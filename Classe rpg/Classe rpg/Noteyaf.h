@@ -3,6 +3,7 @@
 class Noteyaf : public Profs
 {
 private: 
+	vector<int>rep = { 1, 0, 2 };
 	string collect = "Carotte";
 	vector<string> Fayeton =
 {
@@ -26,26 +27,52 @@ private:
 
 
 	//Réponses
-	"- L’étude du sens",
 	"- Un nouvelle drogue que je prends avant chaque Game Jam",
+	"- L’étude du sens",
 	"- Essayer de comprendre Nathan quand il parle",
 
-	"- Un texte justifié",
 	"- De la couleur, de l’amour et des images",
+	"- Un texte justifié",
 	"- Je c pas lir mdr",
 
-	"- Sert à l'échange de données entre composants informatiques",
 	"- Cuire un oeuf (no joke j’ai déjà vu ça sur youtube)",
+	"- Sert à l'échange de données entre composants informatiques",
 	"- Calculer la puissance graphique d’un NPC corpule v3",
 };
 
 public:
+	string getCollect();
+	int getRep(int r);
 	Noteyaf();
 	Noteyaf(string n, int m, int f, int q); //Création constructeur surchargé avec les bases de Personnage + les nouvelles données de Guerrier
 
 	string getTab(int f);
 
 	void special();
+
+	void play();
+
+	void init_matrix();
+
+	void get_player_move();
+
+	void get_computer_move();
+
+	void disp_matrix();
+
+	char check();
+
+	bool vulnerable(int mat[3][3]);
+
+	bool winnable(int mat[3][3]);
+
+	bool finished(int mat[3][3]);
+
+	int empty_c(int r);
+
+	int empty_r(int c);
+
+	void reset();
 
 	friend ostream& operator<<(ostream& os, Noteyaf const& p);
 };

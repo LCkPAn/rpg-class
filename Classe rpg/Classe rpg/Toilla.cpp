@@ -1,5 +1,15 @@
 #include "Toilla.h"
 
+string Toilla::getCollect()
+{
+    return collect;
+}
+
+int Toilla::getRep(int r)
+{
+    return rep[r];
+}
+
 Toilla::Toilla()
 {
     setName("Default");
@@ -23,10 +33,12 @@ string Toilla::getTab(int a)
 }
 
 
-void Toilla::special()
+void Toilla::special(Personnage& enemy)
 {
+    cout << getName() << "Toilla vous fait dormir et il en profite pour attaquer une 2eme fois" << enemy.getName() << endl;
 
-
+    Toilla::attack(enemy);
+    Toilla::attack(enemy);
 }
 
 ostream& operator<<(ostream& os, Toilla const& p)

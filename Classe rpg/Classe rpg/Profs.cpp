@@ -65,6 +65,7 @@ void Profs::startFight(Profs& p, Jouable& j)
 		cout << p.getName() << "a gagne le combat ! Tu ne pourras donc rien recevoir, tu te repose et passe au cours suivant " << endl;
 		j.setMental(tempVie);
 	}
+	system("PAUSE");
 	
 	
 }
@@ -77,4 +78,9 @@ void Profs::special()
 string Profs::getCollect()
 {
 	return collect;
+}
+
+int Profs::getRep(int r)
+{
+	return rep[r];
 }

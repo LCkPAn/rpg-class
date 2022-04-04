@@ -4,6 +4,7 @@
 class Profs: public Personnage
 {
 private:
+	vector<int>rep = { 0, 0, 0 };
 	vector<string> tab;
 	string collect;
 public :
@@ -11,5 +12,6 @@ public :
 	virtual void startFight(Profs&, Jouable&);
 	virtual void special();
 	virtual string getCollect();
+	virtual int getRep(int r);
 };
 
